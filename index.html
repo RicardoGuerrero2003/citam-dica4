@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3ERA PARTE</title>
+    <style>
+      #imagen1{
+        position:absolute;
+        margin:50px;
+        right:50px;
+        top:240px;
+        width: 550px;
+      }
+      #cero{
+        background-image: url(https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?size=626&ext=jpg&ga=GA1.2.1149860058.1620691200);
+            margin-top: -25px;
+            padding: 0.001px; 
+      }
+       #eight{
+            text-align: center;
+            background-image:url(https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?size=626&ext=jpg&ga=GA1.2.1149860058.1620691200 );
+        }
+        body{
+            background-image: url(https://image.freepik.com/foto-gratis/resumen-borroso-interior-hospital-clinica-lujo-hermoso-fondo_103324-624.jpg );
+            background-size: cover;
+            margin: 50px;
+            height: 100vh;
+            font-weight: bold;
+        }
+      #one{
+            padding-left: 60px;
+            font-size: 80px;
+        }
+        .two{
+            color: rgb(85, 155, 224);
+
+        }
+        .three{
+            color: rgb(40, 88, 133);
+        }
+        .four{position: absolute;
+            top:40px;
+            right: 40px;
+        }
+       #five{
+            position: relative;
+            right: 25px;
+            background-color: antiquewhite;
+            text-decoration: none;
+            padding: 10px ;
+        }
+        #six{
+            position: relative;
+            right: 25px;
+            background-color: antiquewhite;
+            text-decoration: none;
+            padding: 10px ;
+        }
+        #seven{
+            position: relative;
+            right: 25px;
+            background-color: antiquewhite;
+            text-decoration: none;
+            padding: 10px ;
+        }
+    </style>
+</head>
+<body>
+    <div id="cero"><h1 id="one"><span class="two">Va</span><span class="three">Q</span><span class="two">nate</span></h1><h3 class="four"> <a id='five' href="nuevo1.html"> Home</a> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; <a id='six' href="nuevo2.html">Reserva</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a id='seven' href="nuevo4.html">Pago</a></h3></div>
+    <div id="eight"><h1>Formulario de pago</h1></div>
+    <form action="#" method="POST">
+            <table cellpadding:5> 
+              <tr>
+              <td> <h2 id="d1"> Datos del usuario: </h2> </td>
+             </tr>
+                 <tr>
+                    <td><label for="">Nombre :</label></td>
+                    <td><input type="text"  minlenght="4" maxlenght="100" placeholder="Ingrese su Nombre"required size="35"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Apellido:</label></td>
+                    <td><input type="text"  minlenght="4" maxlenght="100" placeholder="Ingrese apellido" required size="35"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Provincia, Distrito y Ciudad:</label></td>
+                    <td><input type="Text" placeholder="Ingrese su Provincia, Distrito y Ciudad" required size="35"></td>
+                </tr>
+                 </tr>
+                <tr>
+                    <td><label class='ten' for="">Correo Electrónico:</label></td>
+                    <td><input type="Email" placeholder="................@gmail.com" required size="35"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Número de Teléfono:</label></td>
+                    <td><input type="tel" placeholder="***"minlength="9" maxlength="9"  ></td>
+                </tr>
+                <tr>
+                <td> <h2 id="d2"> Datos de su tarjeta </h2> </td>
+              </tr>
+              <tr>
+                </tr>
+                <div>
+                <td class="di"><label for="">Método de pago :</label></td>
+            </tr>
+            <tr>
+                
+                <td><label for="">Visa:</label></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+               
+                <td><label for="">BBVA:</label></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+                
+                <td><label for="">Paypal:</label></td>
+                <td><input type="radio"></td>
+                </div> 
+            </tr>
+                   <td><label for="">Numero de tarjeta :</label></td>
+                    <td><input type="text" maxlength="15" placeholder="Ingrese su Numero de tarjeta"required size="30"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Codigo de seguridad :</label></td>
+                    <td><input type="text" maxlength="15" placeholder="Ingrese su Codigo de seguridad"required size="30"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Comentarios:</label></td>
+                    <td><textarea rows="15px" cols="90px"></textarea></td>
+                </tr>
+                    <td><button>Enviar</button></td></tr>
+                <tr>
+            </table>
+            <img id="imagen1"src="https://www.viabcp.com/wcm/connect/04fdb88f-41a7-4835-bbad-6d91bd3863ac/Credimas%2Bcorregida.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-04fdb88f-41a7-4835-bbad-6d91bd3863ac-nyFsNj.">
+            <p id="rallita">.<hr/> </p>
+            <script>
+
+        (function(){
+
+        var fecha = new Date();
+        document.write(fecha);
+
+        console.log(fecha.getHours()-12);
+        console.log(fecha.getMinutes());
+        console.log(fecha.getSeconds());
+        
+        var semana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado']
+
+        console.log(fecha.getDay());
+        console.log(fecha.getDate());
+        console.log(fecha.getMonth());
+        console.log(fecha.getFullYear());
+
+        }())
+
+        </script>
+</html>
